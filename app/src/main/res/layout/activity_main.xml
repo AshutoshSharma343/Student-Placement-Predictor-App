@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:text="Enter Student Details"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/student_cgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Enter CGPA"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/student_iq"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Enter IQ"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/student_profile_score"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Enter Profile Score"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/predict_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/black"
+            android:text="Predict"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/black"
+            android:text="Reset"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/predict_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:text=""
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

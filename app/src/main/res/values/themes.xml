@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ml_Model_Integration_Android_App" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your light theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#A61B1B</item>
+        <item name="colorPrimaryVariant">#A61B1B</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#377EB6</item>
+        <item name="colorSecondaryVariant">#298AB6</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.Ml_Model_Integration_Android_App" parent="Base.Theme.Ml_Model_Integration_Android_App" />
+</resources>
